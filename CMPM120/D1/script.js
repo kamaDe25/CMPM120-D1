@@ -41,6 +41,14 @@ let config = {
     scene: [StudioIntro],
 }
 
+let config = {
+    type: Phaser.WEBGL,
+    width: 800,
+    height: 600,
+    backgroundColor:0x141613,
+    scene: [Library],
+}
+
 let game = new Phaser.Game(config);
 
 //Body/Library Scene---------------------------------------------------------------
